@@ -13,7 +13,7 @@ It shows the evolution of the average American's confidence that they (or their 
 <script src="https://d3js.org/d3.v4.js"></script>
 <style>
 
-div.example {
+div.my_dataviz{
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -37,12 +37,9 @@ div.example {
   fill: none;
   stroke: #ccc;
 }
-
 </style>
+
 <script>
-    
-
-
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 30, bottom: 30, left: 60},
     width = 460 - margin.left - margin.right,
