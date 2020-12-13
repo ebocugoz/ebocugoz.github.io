@@ -11,6 +11,8 @@ It shows the evolution of the average American's confidence that they (or their 
 ![Dataset](DATA/Dataset.png)
 <script src="https://d3js.org/d3.v4.js"></script>
 <script>
+    
+## Baseline model
 
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 30, bottom: 30, left: 60},
