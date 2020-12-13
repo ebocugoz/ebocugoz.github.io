@@ -11,33 +11,8 @@ It shows the evolution of the average American's confidence that they (or their 
 ![Dataset](DATA/Dataset.png)
 ## Baseline model
 <script src="https://d3js.org/d3.v4.js"></script>
-<style>
+my_dataviz
 
-div.my_dataviz{
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.box {
-  font: 10px sans-serif;
-}
-
-.box line,
-.box rect,
-.box circle {
-  fill: #fff;
-  stroke: #000;
-  stroke-width: 1.5px;
-}
-
-.box .center {
-  stroke-dasharray: 3,3;
-}
-
-.box .outlier {
-  fill: none;
-  stroke: #ccc;
-}
-</style>
 
 <script>
 // set the dimensions and margins of the graph
@@ -94,3 +69,4 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
 })
 
 </script>
+<div id="my_dataviz"></div>
