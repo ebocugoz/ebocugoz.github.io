@@ -10,7 +10,7 @@ It shows the evolution of the average American's confidence that they (or their 
 
 ## Data Exploration
 ### Plots 
-{% include overall.html %}
+{% include multi-line.html %}
 
 
 ## Baseline model
