@@ -21,6 +21,11 @@ Ok.
 ## Baseline model
 Here you can see baseline model.
 
+Why t-1 and t-6:
+{% include regression_table.html %}
+
+Results:
+
 {% include baseline_plot.html %}
 
 Ok.
