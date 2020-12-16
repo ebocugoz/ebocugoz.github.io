@@ -17,4 +17,5 @@ It shows the evolution of the average American's confidence that they (or their 
 ## Baseline model
 ![Dataset](DATA/Dataset.png)
 ## Baseline model
-{% include multi-line.html %}
+Here you can see
+{% include ine.html %}
