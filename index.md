@@ -11,11 +11,11 @@ It shows the evolution of the average American's confidence that they (or their 
 
 ## Data Exploration
 ### Plots 
-{% include multi-line.html %}
+{% include mean_plot.html %}
 
 
 ## Baseline model
 ![Dataset](DATA/Dataset.png)
 ## Baseline model
 Here you can see
-{% include line.html %}
+{% include baseline_plot.html %}
