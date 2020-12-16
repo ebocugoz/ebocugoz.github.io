@@ -11,6 +11,7 @@ It shows the evolution of the average American's confidence that they (or their 
 
 ## Data Exploration
 ### Plots 
+Mean of plot
 {% include mean_plot.html %}
 
 
