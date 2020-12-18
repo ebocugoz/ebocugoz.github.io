@@ -31,8 +31,9 @@ INSERT A BASELINE MODEL PERFORMANCE VISUALIZATION
 Not too bad: on average, this model is off by 1.143 %.
 
 ## Enters Google Trends
-Can we really not do any better than this in the age of data ? 
-Actually, you can use Google Trends - a website by Google which lets you see how many users make certain queries in any region of interest during a period of your choice. By seeing what people are searching in real time, you can gain a competitive edge and make more reliable predictions of the future evolutions of the market. Coming back to confidence in job security, the idea is very simple. If there is an overnight boom of Google queries for job opportunities, then there must be a growing concern about job security in the general population - no need to wait for the University of Michigan to publish their next report in a few weeks!
+Is there no way to do better than this in the age of data ? 
+
+Actually, yes - you can use *Google Trends*, a website by Google which lets you see how many users make certain queries in any region of interest during a period of your choice. By seeing what people are searching in real time, you can gain a competitive edge and make more reliable predictions of the future evolutions of the market. Coming back to confidence in job security, the idea is very simple. If there is an overnight boom of Google queries for job opportunities, then there must be a growing concern about job security in the general population - no need to wait for the University of Michigan to publish their next report in a few weeks!
 
 To get the most out of Google Trends, you'll need to carefully think about what queries are relevant. If you cannot read people's minds, or are lazy, then you'll benefit from having an automated way of selecting those. After automatically generate a list of candidate queries, we used a Bayesian technique, called Spike and Slab, which computes estimated probabilities that certain variables should be included in the model. 
 {% include Spike_slab.html %}
