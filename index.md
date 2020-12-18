@@ -7,11 +7,12 @@ subtitle: Using the University of Michigan's surveys of consumers
 
 # Do Americans feel secure about their jobs ?
 Every month, the University of Michigan updates their *[surveys of consumers](https://data.sca.isr.umich.edu/data-archive/mine.php "Link to the surveys")* in which they collect people's opinion on their current financial situation. One of the questions respondants are asked is:
->"During the next 5 years, what do you think the chances are that you (or your husband/wife) will lose a job that you wanted to keep ?". 
+>During the next 5 years, what do you think the chances are that you (or your husband/wife) will lose a job that you wanted to keep ?
+The answer the average American gives varies rapidly in time:
 
 {% include mean_plot.html %}
 
-As this figure shows, the answer the average American gives varies rapidly in time. Because confidence in job security will likely affect a person's economic behaviours, there is a high incentive to anticipate it's evolution in the near feature. 
+Because confidence in job security will likely affect a person's economic behaviours, there is a high incentive to anticipate it's evolution in the near feature. 
 
 # How we can predict consumer confidence
 A first step towards guessing how confidence will evolve in the near future is to acknowledge the seasonality of the phenomenon. 
@@ -32,8 +33,12 @@ You can use Google Trends to see what people are searching in real time. This ca
 
 To get the most out of Google Trends, you'll need to carefully think about what queries are relevant. If you cannot read people's minds, or are lazy, then you'll bed very interested in having an automated way of selecting those. 
 
+SHOW FEATURE SELECTION
+
+SHOW FINAL RESULTS
+
 Results:
 
 {% include baseline_plot.html %}
 
-Ok.
+
