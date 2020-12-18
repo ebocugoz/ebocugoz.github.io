@@ -32,29 +32,32 @@ Not too bad: on average, this model is off by MAE?? %.
 
 ## Enters Google Trends
 Can we really not do any better than this in the age of data ? 
-Actually, you can use Google Trends - a website by Google which lets you see how many users make certain queries in any region of interest during a period of your choice. By seeing what people are searching in real time, you can gain a competitive edge and make more reliable predictions of the future evolutions of the market. Coming back to confidence in joby security, the idea is very simple. If there is an overnight boom of Google queries for job opportunities, then there must be a growing concern about job security in the general population - no need to wait for the University of Michigan to publish their next report in a few weeks!
+Actually, you can use Google Trends - a website by Google which lets you see how many users make certain queries in any region of interest during a period of your choice. By seeing what people are searching in real time, you can gain a competitive edge and make more reliable predictions of the future evolutions of the market. Coming back to confidence in job security, the idea is very simple. If there is an overnight boom of Google queries for job opportunities, then there must be a growing concern about job security in the general population - no need to wait for the University of Michigan to publish their next report in a few weeks!
 
-To get the most out of Google Trends, you'll need to carefully think about what queries are relevant. If you cannot read people's minds, or are lazy, then you'll benefit from having an automated way of selecting those. After automatically generate a list of candidate queries, we used a Bayesian technique, called Spike and Slab, which computes estimated probabilities that certain varaiables should be included in the model. 
+To get the most out of Google Trends, you'll need to carefully think about what queries are relevant. If you cannot read people's minds, or are lazy, then you'll benefit from having an automated way of selecting those. After automatically generate a list of candidate queries, we used a Bayesian technique, called Spike and Slab, which computes estimated probabilities that certain variables should be included in the model. 
 {% include Spike_slab.html %}
 
-SHOW FINAL RESULTS
-
-Results:
+By using the queries for which inclusion probabilities are high (*Loan* and *Crisis*), we obtain a lower mean absolute error: 
 
 {% include all_forecasting.html %}
-
-
-{% include trends_improvement.html %}
 
 |Baseline MAE | Google Trends MAE  | Improvement of MAE(%)
 |:----------------------------: | ------------------------ | --------------
 |1.1430 | 1.1293 | 1.1970%
 
-However
+While this improvement is not that impressive overall, it appears that Google Trends is very useful in predicting the behavior of the time series in uncertain times, like the Great Recession or the COVID-19 Recession:
+
+{% include trends_improvement.html %}
 
 |Baseline MAE (COVID-19) | Google Trends MAE (COVID-19) | Improvement of MAE(%)(COVID-19)
 |:----------------------------: | ------------------------ | --------------
 |2.266| 1.59 | 29.8239%
+
+This improvement is much more important, because in these periods, timely adaptation is crucial. 
+
+
+
+# What we learned
 
 
 
