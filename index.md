@@ -18,7 +18,7 @@ Because confidence in job security will likely affect a person's economic behavi
 # How we can predict consumer confidence
 A first step towards guessing how confidence will evolve in the near future is to acknowledge the seasonality of the phenomenon. 
 
-INSERT MEAN BY MONTH GRAPH
+{% include monthly_percentage.html %}
 
 As you can see, Americans typically feel less confident about their jobs when the summer hits (and they have to announce to their boss they are taking an unplanned 2 month break). What this means for us is that we can get a good idea of how people are going to feel about their jobs in the coming month just by knowing the monthly history. 
 
