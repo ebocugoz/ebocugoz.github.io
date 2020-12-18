@@ -11,13 +11,13 @@ Every month, the University of Michigan updates their [surveys of consumers](htt
 
 {% include mean_plot.html %}
 
-## Data Exploration
-### Plots 
-Here is mean plot.
+As this figure shows, the answer the average American gives varies rapidly in time. Because confidence in job security will likely affect a person's economic behaviours, there is a high incentive to anticipate it's evolution in the near feature. 
 
+# How we can predict consumer confidence
+A first step towards guessing how confidence will evolve in the near future is to acknowledge the seasonality of the phenomenon. 
 
+INSERT MEAN BY MONTH GRAPH
 
-Ok. 
 ## Baseline model
 ![Dataset](DATA/Dataset.png)
 ## Baseline model
