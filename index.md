@@ -32,7 +32,7 @@ In this concrete example, it appears that job confidence 1 and 6 months before a
 But can we do better than this ? What if you wanted to use data science to gain a competitive edge by making more reliable predictions of the future evolutions of the market ?
 You can use Google Trends to see what people are searching in real time. This can give insights about the current feel of the general population about the economical situation or any other trending topic really. Coming back to job security, the idea is quite simple. If overnight, there is a boom of Google queries for job opportunities, there's obviously people worried about their jobs, right ?
 
-To get the most out of Google Trends, you'll need to carefully think about what queries are relevant. If you cannot read people's minds, or are lazy, then you'll bed very interested in having an automated way of selecting those. 
+To get the most out of Google Trends, you'll need to carefully think about what queries are relevant. If you cannot read people's minds, or are lazy, then you'll benefit from having an automated way of selecting those. 
 
 SHOW FEATURE SELECTION
 
