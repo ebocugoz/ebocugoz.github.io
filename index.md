@@ -6,7 +6,7 @@ subtitle: Using the University of Michigan's surveys of consumers
 ---
 
 # Do Americans feel secure about their jobs ?
-Every month, the University of Michigan updates their [surveys of consumers](https://data.sca.isr.umich.edu/data-archive/mine.php) in which they collect the people's opinion on their current financial situation. One of the questions respondants are asked is:
+Every month, the University of Michigan updates their [surveys of consumers](https://data.sca.isr.umich.edu/data-archive/mine.php) in which they collect people's opinion on their current financial situation. One of the questions respondants are asked is:
 >"During the next 5 years, what do you think the chances are that you (or your husband/wife) will lose a job that you wanted to keep ?". 
 
 {% include mean_plot.html %}
@@ -18,17 +18,17 @@ A first step towards guessing how confidence will evolve in the near future is t
 
 INSERT MEAN BY MONTH GRAPH
 
-As you can see, Americans typically feel less confident about their jobs when the summer hits (and they have to announce to their boss they decided to take a unplanned break for two months). What this means for us is that we can probably get a good idea of how people are going to feel about their jobs in the coming month just by knowing the monthly history. 
+As you can see, Americans typically feel less confident about their jobs when the summer hits (and they have to announce to their boss they are taking an unplanned 2 month break). What this means for us is that we can get a good idea of how people are going to feel about their jobs in the coming month just by knowing the monthly history. 
 
 INSERT A BASELINE MODEL PERFORMANCE VISUALIZATION
 
-In this concrete example, it appears that job confidence 1 month and 6 months before are the most relevant for predicting it at a given time:    
+In this concrete example, it appears that job confidence 1 and 6 months before are the most relevant for predicting it at a given time:    
 
 {% include regression_table.html %}
 
 ## Enters Google Trends
 But can we do better than this ? What if you wanted to use data science to gain a competitive edge by making more reliable predictions of the future evolutions of the market ?
-You can use Google Trends to see what people are searching in real time. This can give insights about the current feel of the general population about the economical situation or any other trending topic really. Coming back to job security, the idea is quite simple. If overnight, there is a boom of Google queries for job opportunities, there's obviously people worried about their jobs, right ? 
+You can use Google Trends to see what people are searching in real time. This can give insights about the current feel of the general population about the economical situation or any other trending topic really. Coming back to job security, the idea is quite simple. If overnight, there is a boom of Google queries for job opportunities, there's obviously people worried about their jobs, right ?
 
 To get the most out of Google Trends, you'll need to carefully think about what queries are relevant. If you cannot read people's minds, or are lazy, then you'll bed very interested in having an automated way of selecting those. 
 
