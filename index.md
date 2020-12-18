@@ -9,7 +9,7 @@ subtitle: Using the University of Michigan's surveys of consumers
 Every month, the University of Michigan updates its *[surveys of consumers](https://data.sca.isr.umich.edu/data-archive/mine.php "Link to the surveys")* in which it collects people's opinion on their current financial situation. One of the questions respondants are asked is:
 >During the next 5 years, what do you think the chances are that you (or your husband/wife) will lose a job that you wanted to keep ?
 
-On average, the answer is typically around 20%. But it can evolve rapidly, depending on the political and financial situation in the *US*:
+On average, the answer is typically around 20%. However, it can evolve rapidly, depending on the political and financial situation in the *US*:
 
 {% include mean_plot.html %}
 
