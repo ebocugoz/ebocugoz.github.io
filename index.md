@@ -47,6 +47,9 @@ SHOW FINAL RESULTS
 
 Results:
 
+
+{% include all_forecasting.html %}
+
 {% include trends_improvement.html %}
 
 
