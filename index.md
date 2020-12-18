@@ -43,6 +43,9 @@ Results:
 
 {% include all_forecasting.html %}
 
+
+{% include trends_improvement.html %}
+
 |Baseline MAE | Google Trends MAE  | Improvement of MAE(%)
 |:----------------------------: | ------------------------ | --------------
 |1.1430 | 1.1293 | 1.1970%
@@ -55,6 +58,6 @@ However
 
 
 
-{% include trends_improvement.html %}
+
 
 
