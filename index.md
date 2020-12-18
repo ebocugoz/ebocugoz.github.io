@@ -50,11 +50,13 @@ While this improvement is not that impressive overall, it appears that Google Tr
 
 {% include trends_improvement.html %}
 
+
+This improvement is much more important, because in these periods, timely adaptation is crucial. During the COVID-19 recession:
+
 |Baseline MAE (COVID-19) | Google Trends MAE (COVID-19) | Improvement of MAE(%)(COVID-19)
 |:----------------------------: | ------------------------ | --------------
 |2.266| 1.59 | 29.8239%
 
-This improvement is much more important, because in these periods, timely adaptation is crucial. 
 
 
 
