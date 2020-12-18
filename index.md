@@ -15,7 +15,7 @@ On average, the answer is typically around 20%. However, it can evolve rapidly, 
 
 Because confidence in job security will likely affect a person's economic behaviors, there is a high incentive to anticipate its evolution in the near feature - for example before making investment or marketing decisions. 
 
-# How we can predict perceveived job security
+# How we can predict perceived job security
 A first step towards guessing how job security confidence will evolve in the near future is to acknowledge the seasonality of the phenomenon. 
 
 {% include monthly_percentage.html %}
