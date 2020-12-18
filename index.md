@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nowcasting confidence in job security using Google Trends
+title: Predicting perceived job security using Google Trends
 cover-img: /assets/img/gtrends.png
 subtitle: Using the University of Michigan's surveys of consumers
 ---
