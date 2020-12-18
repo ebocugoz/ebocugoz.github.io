@@ -41,6 +41,15 @@ SHOW FINAL RESULTS
 
 Results:
 
+|Baseline MAE | Google Trends MAE  | Improvement of MAE(%)
+|:----------------------------: | ------------------------ | --------------
+|1.1430 | 1.1293 | 1.1970%
+
+However
+
+|Baseline MAE (COVID-19) | Google Trends MAE (COVID-19) | Improvement of MAE(%)(COVID-19)
+|:----------------------------: | ------------------------ | --------------
+|2.266| 1.59 | 29.8239%
 
 {% include all_forecasting.html %}
 
