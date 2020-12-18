@@ -6,7 +6,7 @@ subtitle: Using the University of Michigan's surveys of consumers
 ---
 
 # Do Americans feel secure about their jobs ?
-Every month, the University of Michigan updates its *[surveys of consumers](https://data.sca.isr.umich.edu/data-archive/mine.php "Link to the surveys")* in which it collects people's opinion on their current financial situation. One of the questions respondants are asked is:
+Every month, the University of Michigan updates its *[surveys of consumers](https://data.sca.isr.umich.edu/data-archive/mine.php "Link to the surveys")* by collecting people's opinion on their current financial situation. One of the questions respondants are asked is:
 >During the next 5 years, what do you think the chances are that you (or your husband/wife) will lose a job that you wanted to keep ?
 
 On average, the answer is typically around 20%. However, it can evolve rapidly, depending on the political and financial situation in the *US*:
