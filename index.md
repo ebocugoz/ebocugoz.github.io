@@ -13,7 +13,7 @@ The answer the average American gives varies rapidly in time:
 
 {% include mean_plot.html %}
 
-Because confidence in job security will likely affect a person's economic behaviours, there is a high incentive to anticipate its evolution in the near feature. 
+Because confidence in job security will likely affect a person's economic behaviors, there is a high incentive to anticipate its evolution in the near feature. 
 
 # How we can predict consumer confidence
 A first step towards guessing how confidence will evolve in the near future is to acknowledge the seasonality of the phenomenon. 
