@@ -22,11 +22,14 @@ A first step towards guessing how confidence will evolve in the near future is t
 
 As you can see, Americans typically feel less confident about their jobs when the summer hits (and they have to announce to their boss they are taking an unplanned 2 month break). What this means for us is that we can get a good idea of how people are going to feel about their jobs in the coming month just by knowing the monthly history. 
 
-INSERT A BASELINE MODEL PERFORMANCE VISUALIZATION
-
 In this concrete example, it appears that job confidence 1 and 6 months before are the most relevant for predicting it at a given time:    
 
 {% include regression_table.html %}
+
+To test how well we are able to make predictions for the future, we can see what our result our model would have given, knowing only previous values: 
+
+INSERT A BASELINE MODEL PERFORMANCE VISUALIZATION
+{% include baseline_plot.html %}
 
 ## Enters Google Trends
 But can we do better than this ? What if you wanted to use data science to gain a competitive edge by making more reliable predictions of the future evolutions of the market ?
@@ -34,12 +37,19 @@ You can use Google Trends to see what people are searching in real time. This ca
 
 To get the most out of Google Trends, you'll need to carefully think about what queries are relevant. If you cannot read people's minds, or are lazy, then you'll benefit from having an automated way of selecting those. 
 
+
 SHOW FEATURE SELECTION
+
+For feature selection we used Bayesian technique called Spike and Slab. 
+{% include Spike_slab.html %}
 
 SHOW FINAL RESULTS
 
 Results:
 
-{% include baseline_plot.html %}
+
+{% include all_forecasting.html %}
+
+{% include trends_improvement.html %}
 
 
