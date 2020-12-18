@@ -28,7 +28,7 @@ In order to test how well we are able to make predictions for the future using o
 INSERT A BASELINE MODEL PERFORMANCE VISUALIZATION
 {% include baseline_plot.html %}
 
-Not too bad: on average, this model is off by MAE?? %.
+Not too bad: on average, this model is off by 1.143 %.
 
 ## Enters Google Trends
 Can we really not do any better than this in the age of data ? 
