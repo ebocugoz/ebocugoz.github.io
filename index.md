@@ -25,7 +25,6 @@ As you can see, Americans typically feel less confident about their jobs when th
 In this concrete case, a statistical test shows that the job security confidence was 1 and 6 months before is the most relevant measurements for predicting it at any given time. 
 In order to test how well we are able to make predictions for the future using only these two anterior values, we can compare actual observation to what this model would have predicted: 
 
-INSERT A BASELINE MODEL PERFORMANCE VISUALIZATION
 {% include baseline_plot.html %}
 
 Not too bad: on average, this model is off only by 1.143 %.
@@ -56,8 +55,6 @@ This improvement is much more important, because in these periods, timely adapta
 |Baseline MAE (COVID-19) | Google Trends MAE (COVID-19) | Improvement of MAE(%)(COVID-19)
 |:----------------------------: | ------------------------ | --------------
 |2.266| 1.59 | 29.8239%
-
-
 
 
 # What we learned
