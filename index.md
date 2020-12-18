@@ -9,24 +9,21 @@ subtitle: Using the University of Michigan's surveys of consumers
 Every month, the University of Michigan updates its *[surveys of consumers](https://data.sca.isr.umich.edu/data-archive/mine.php "Link to the surveys")* in which it collects people's opinion on their current financial situation. One of the questions respondants are asked is:
 >During the next 5 years, what do you think the chances are that you (or your husband/wife) will lose a job that you wanted to keep ?
 
-The answer the average American gives varies rapidly in time:
+On average, the answer is typically around 20%. But it can evolve rapidly, depending on the political and financial situation in the *U.S.*:
 
 {% include mean_plot.html %}
 
-Because confidence in job security will likely affect a person's economic behaviors, there is a high incentive to anticipate its evolution in the near feature. 
+Because confidence in job security will likely affect a person's economic behaviors, there is a high incentive to anticipate its evolution in the near feature - for example for investing or marketing decisions. 
 
-# How we can predict consumer confidence
-A first step towards guessing how confidence will evolve in the near future is to acknowledge the seasonality of the phenomenon. 
+# How we can predict perceveived job security
+A first step towards guessing how job security confidence will evolve in the near future is to acknowledge the seasonality of the phenomenon. 
 
 {% include monthly_percentage.html %}
 
-As you can see, Americans typically feel less confident about their jobs when the summer hits (and they have to announce to their boss they are taking an unplanned 2 month break). Also, it is reasonable to assume that their confidence doesn't change drastically from one month to another. What this means for us is that we can get a good idea of how people are going to feel about their jobs in the coming month just by knowing the monthly history and using a autoregressive model. 
+As you can see, Americans typically feel less confident about their jobs when the summer hits (and they have to announce to their boss that they are taking an unplanned 2 month break). Also, it is reasonable to assume that their confidence doesn't change drastically from one month to another. What this means for us is that we can get a good idea of how people are going to feel about their jobs in the next month just by knowing the monthly history and using a autoregressive model. 
 
-In this concrete example, it appears that job confidence 1 and 6 months before are the most relevant measurements for predicting it at any given time:    
-
-{% include regression_table.html %}
-
-To test how well we are able to make predictions for the future, we can see what our result our model would have given, knowing only previous values and compare that to the actual observations: 
+In this concrete case, it appears that knowing what the job security confidence was 1 and 6 months before is the most relevant measurements for predicting it at any given time. 
+In order to test how well we are able to make predictions for the future using only these two anterior values, we can compare actual observation to what this model would have predicted: 
 
 INSERT A BASELINE MODEL PERFORMANCE VISUALIZATION
 {% include baseline_plot.html %}
