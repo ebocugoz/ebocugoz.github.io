@@ -38,7 +38,7 @@ Actually, yes - you can use *Google Trends*, a website by Google which lets you 
 To get the most out of Google Trends, you'll need to carefully think about what queries are relevant. If you cannot read people's minds, or are lazy, then you'll benefit from having an automated way of selecting those. After automatically generate a list of candidate queries, we used a Bayesian technique, called Spike and Slab, which computes estimated probabilities that certain variables should be included in the model. 
 {% include Spike_slab.html %}
 
-By using the queries for which inclusion probabilities are high (*Loan* and *Crisis*), we obtain a lower mean absolute error: 
+By using the queries for which inclusion probabilities are high (*Loan* and *Crisis*), we obtain a lower mean absolute error (1.1293%): 
 
 {% include all_forecasting.html %}
 
